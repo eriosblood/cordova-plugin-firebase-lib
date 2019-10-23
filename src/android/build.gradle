@@ -22,6 +22,10 @@ dependencies {
     }
 }
 
+dexOptions {
+    javaMaxHeapSize "4g"
+}
+
 cdvPluginPostBuildExtras.add({
     apply plugin: 'com.google.gms.google-services'
     apply plugin: 'io.fabric'
