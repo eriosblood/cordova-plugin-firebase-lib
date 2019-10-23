@@ -24,7 +24,7 @@ dependencies {
 
 dexOptions {
     incremental true
-    javaMaxHeapSize "4g"
+    javaMaxHeapSize "2048M"
 }
 
 cdvPluginPostBuildExtras.add({
